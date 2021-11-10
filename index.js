@@ -115,10 +115,10 @@ console.log(catalina.favoriteToy)
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. window binding: if you dont have anything for this to use it will return window or undefined in strict mode
+  2. implicit binding: when you have objects with methods. you use it to call something like this.ex
+  3. explicit blinding: we put what the .this should look for by writing it in a function 
+  4. new binding: when a function is invoked with a new key the this key is bound to the new object being constructed.
 */
 
 
